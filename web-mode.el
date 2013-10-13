@@ -5471,7 +5471,7 @@ Must be used in conjunction with web-mode-enable-block-face."
           (setq ctrl (match-string-no-properties 1))
           (if (member ctrl '("else"))
               (setq ctrl nil)
-            (setq state (not (string= "end" ctrl)))
+            (setq state (not (or (string= "END" ctrl) (string= "end" ctrl))))
             )
           )
 
