@@ -631,6 +631,7 @@ Must be used in conjunction with web-mode-enable-block-face."
     ("mason"      . ("poet"))
     ("python"     . ())
     ("razor"      . ("play" "play2"))
+    ("template-toolkit" . ())
     ("underscore" . ("underscorejs"))
     ("velocity"   . ("vtl" "cheetah"))
     ("web2py"     . ()))
